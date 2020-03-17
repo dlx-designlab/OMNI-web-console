@@ -1,0 +1,20 @@
+[
+  { "id": "000b78fffe0519b3", "key": "lora1", "name": "OMNI LoRa1" },
+  { "id": "000b78fffe0519c2", "key": "lora2", "name": "OMNI LoRa2" },
+  { "id": "000b78fffe051a11", "key": "lora3", "name": "OMNI LoRa3" },
+  { "id": "000b78fffe051993", "key": "lora4", "name": "OMNI LoRa4" },
+  { "id": "000b78fffe052cfc", "key": "lora5", "name": "OMNI Bordeaux" },
+  { "id": "000b78fffe052c12", "key": "lora6", "name": "OMNI LoRa6" },
+  { "id": "000b78fffe052c48", "key": "lora7", "name": "OMNI LoRa7" },
+  { "id": "000b78fffe052cc0", "key": "lora8", "name": "OMNI LoRa8" },
+  { "id": "000b78fffe052cea", "key": "lora9", "name": "OMNI LoRa9" },
+  { "id": "000b78fffe052cb6", "key": "lora10", "name": "OMNI LoRa10" },
+  { "id": "000b78fffe052cfd", "key": "lora11", "name": "OMNI LoRa11" },
+  { "id": "000b78fffe052c4b", "key": "lora12", "name": "OMNI LoRa12" },
+  { "id": "000b78fffe052d24", "key": "lora13", "name": "OMNI LoRa13" },
+  { "id": "000b78fffe052c7f", "key": "lora14", "name": "OMNI LoRa14" },
+  { "id": "000b78fffe052cce", "key": "lora15", "name": "OMNI LoRa15" },
+  { "id": "000b78fffe052c18", "key": "lora16", "name": "OMNI LoRa16" },
+  { "id": "000b78fffe0519ec", "key": "lora17", "name": "OMNI LoRa17" },
+  { "id": "000b78fffe051A11", "key": "lora18", "name": "OMNI LoRa18" }
+ ]
