@@ -1,0 +1,50 @@
+{
+  "name": "omni-platform",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "repository": "dlx-designlab/omni",
+  "bugs": "https://github.com/dlx-designlab/omni/issues",
+  "homepage": "https://github.com/dlx-designlab/omni",
+  "author": {
+    "name": "Takram",
+    "email": "info@takram.com"
+  },
+  "scripts": {
+    "install-all": "npm install && run-p install:*",
+    "install:api": "npm --prefix=./api install",
+    "install:app": "npm --prefix=./app install",
+    "update-all": "npm update && run-p update:*",
+    "update:api": "npm --prefix=./api update",
+    "update:app": "npm --prefix=./app update",
+    "ci-all": "npm ci && run-p ci:*",
+    "ci:api": "npm --prefix=./api ci",
+    "ci:app": "npm --prefix=./app ci",
+    "ncu-all": "ncu -u --packageFile=./package.json && run-p ncu:*",
+    "ncu:api": "ncu -u --packageFile=./api/package.json",
+    "ncu:app": "ncu -u --packageFile=./app/package.json",
+    "reset-all": "npm run reset && run-p reset:*",
+    "reset:api": "npm --prefix=./api run reset",
+    "reset:app": "npm --prefix=./app run reset",
+    "dev": "run-p dev:* story watch",
+    "dev:api": "npm --prefix=./api run dev",
+    "dev:app": "npm --prefix=./app run dev",
+    "watch": "run-p watch:*",
+    "watch:api": "npm --prefix=./api run watch",
+    "watch:app": "npm --prefix=./app run watch",
+    "test": "run-p test:*",
+    "test:api": "npm --prefix=./api run test",
+    "test:app": "npm --prefix=./app run test",
+    "lint": "run-p lint:*",
+    "lint:api": "npm --prefix=./api run lint",
+    "lint:app": "npm --prefix=./app run lint",
+    "format": "run-p format:*",
+    "format:api": "npm --prefix=./api run format",
+    "format:app": "npm --prefix=./app run format",
+    "reset": "trash node_modules package-lock.json; npm install"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {}
+}
