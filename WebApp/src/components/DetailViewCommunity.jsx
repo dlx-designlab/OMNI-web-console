@@ -121,7 +121,7 @@ export default function DetailViewCommunity ({
                     {item.name}{' '}
                   </Link>{' '}
                   <i style={{ fontSize: 'small' }}>Last Online:</i>{' '}
-                  {item.lastonline} ago <br />
+                  {item.lastonline} <br />
                   {/* <i style={{ fontSize: 'small' }}>Status:</i> {item.online ? 'Online' : 'Offline'} &nbsp; */}
                   <i style={{ fontSize: 'small' }}>Temperature:</i>{' '}
                   {item.temperature} &nbsp;
