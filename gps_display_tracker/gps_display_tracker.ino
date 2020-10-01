@@ -625,6 +625,7 @@ int send_request(String dataToSend){
   Serial.print("Response: ");
   Serial.println(response);
 
+  // Return server response code
   return statusCode;
 
 }
