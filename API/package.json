@@ -31,7 +31,7 @@
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-cluster": "0.0.5",
     "express-winston": "^4.0.3",
     "graphql": "^14.6.0",
